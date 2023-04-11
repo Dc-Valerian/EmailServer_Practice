@@ -55,6 +55,7 @@ export const verifyuser = async (req:Request,res:Response)=>{
                 );
                 return res.status(201).json({
                     message: "Account has been verified, you can now signin",
+                    data : user
                   });
             } else {
                 return res.status(400).json({
