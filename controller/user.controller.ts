@@ -13,7 +13,8 @@ export const registerUser = (req:Request,res:Response) =>{
         })
 
         return res.status(200).json({
-            message:"User created Successfully"
+            message:"User created Successfully",
+            data:const first = useRef(second)
         })
         
     } catch (error) {
